@@ -32,7 +32,7 @@ class SCRT extends Component{
                     <h1>Account funds are transferred to: {this.props.account}</h1>
                     <h1>Transaction ID: {this.props.trnnum}</h1>
                     
-            <Link route={`/scrt/gasEstimate/${this.props.name}/${this.props.prn}/${this.props.tokensCount}/${this.props.account}/${this.props.trnnum}`}><a><Button primary>Get Gas Estimate</Button></a></Link>
+            <Link route={`/scrt/gasEstimate?name=${this.props.name}&prn=${this.props.prn}&tokensCount=${this.props.tokensCount}&account=${this.props.account}&trnnum=${this.props.trnnum}`}><a><Button primary>Get Gas Estimate</Button></a></Link>
             
             </Layout>
             
