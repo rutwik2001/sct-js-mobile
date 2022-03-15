@@ -46,7 +46,7 @@ class SCRT extends Component{
             })
             this.setState({hidden: false})
             this.setState({successMessage: "Your transaction is completed successfully, Redirecting back to profile in 10 seconds"}); 
-            setTimeout(() => { Router.pushRoute(`https://www.facebook.com/`) }, 10000);
+            setTimeout(() => { Router.pushRoute(`http://localhost.smartcookie.in//main/rewards_log`) }, 10000);
             
 
         //
