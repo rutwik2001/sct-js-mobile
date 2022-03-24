@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@3rdweb/hooks": "^1.9.2",
     "@metamask/legacy-web3": "^2.0.0",
     "@truffle/hdwallet-provider": "^2.0.3",
     "dotenv": "^16.0.0",
