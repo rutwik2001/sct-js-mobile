@@ -18,7 +18,7 @@ export async function getServerSideProps({query}) {
 
 function Home(props) {
 
-    console.log(props)
+   
 
     const { connectWallet, address, error } = useWeb3();
     error ? console.log(error) : null;
